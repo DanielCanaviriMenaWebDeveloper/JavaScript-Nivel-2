@@ -21,6 +21,59 @@
             console.log(); // Metodo que me permite imprimir por consola
 
             console.log("Hola señor " + nombre + " es un gusto saludarlo.");
+
+            /* Declarando variables en multiples lineas */
+            var apellido = "Canaviri"
+            var edad = 37;
+            var colorOjos = "cafes";
+            var estadoCamisa = true;
+
+            /* Declarando variables en una sola linea */
+            // var apellido = "Canaviri", edad = 37, colorOjos = cafes, estadoCamisa = true;
+
+            /* Strings */
+
+            var saludo = "Hola mundo";
+            console.log(saludo); 
+
+            var numero = 12345;
+            console.log(numero);
+
+            /* Como saber el tipo de una variable con typeof() */
+            console.log(typeof(saludo)); // Output: string
+            console.log(typeof(numero)); // Output: number
+
+            /* Metodos para manejar Strings */
+
+            var persona = "DCniel ACberto Canaviri Mena";
+            console.log(persona);
+
+            /* toLowerCase: Convierte a minusculas un String */
+            var personaMinuscula = persona.toLowerCase();
+            console.log("Minuscula: " + personaMinuscula);
+
+            /* toUpperCase: Convierte a mayusculas un String */
+            var personaMayuscula = persona.toUpperCase();
+            console.log("Mayuscula: " + personaMayuscula);
+
+            /* charAt(valor): Obtiene un caracter del String, se debe indicar el valor de 
+            la posicion en que se encuentra el caracter para obtenerlo.  */
+            var elemento = persona.charAt(4);
+            console.log("Caracter numero 4: " + elemento)
+
+
+            console.log(persona.indexOf('a'));
+
+
+
+
+
+
+
+
+
+
+
         </script>
     </body>
 </html>
